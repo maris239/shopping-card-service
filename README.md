@@ -1,20 +1,7 @@
-# shopping-carProblem
-Shopping Cart Microservice
-Imagine you are working on a shopping Cart component, when user choose a product, it will be published to a message queue.
-
-You are developing a micro service component which receives message from message queue, save it into database. You can use embedded database/jms for illustration purpose.
-
-The code should:
-
-Should have good test coverage.
-The app should not lose message if the database connections goes down.
-The app should be able to auto create table if the table doesn’t exist in database.
-Self-healing from database issue without human intervention.
-Good fault tolerate.
 Solution
 Architecture
 Setup and run
-clone https://github.com/idotrick/shopping-cart-service.git
+clone https://github.com/maris239/shopping-component-ms.git
 
 Import shopping-cart-service project to IDE
 
